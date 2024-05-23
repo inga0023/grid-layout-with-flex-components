@@ -32,23 +32,26 @@ body {
   }
   .emojis{
   display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 380px);
     grid-template-rows: 1fr 1fr;
    row-gap: 1em;
    column-gap: 1em; 
-   justify-content: center;
+   /* justify-content: center; */
   }
 
   .icon{
    display:flex;
-   padding-left: 20%;
+   padding-left: 45%;
   }
 
   .emojis .icon{
     order: -1;
   }
   .emojis :nth-child(4) h2{
-    padding-bottom: 20px;
+    padding-bottom: 32px;
+  }
+  .emojis :nth-child(2) h2{
+    padding-bottom: 29px;
   }
 
 
